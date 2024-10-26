@@ -74,18 +74,17 @@ class Model:
 
         # Adjust to estimate of national vote
         stateFundEst = np.array(stateFundEst)
+        stateFundEst = stateFundEst + self.geographyHead.fundEst - 0.5
 
-        self.xFund = np.insert(np.array(stateFundEst), 0, self.geographyHead.fundEst)
+        self.xFund = np.array(stateFundEst)
         rho = self.correlation
         stateFundSigma = np.array(stateFundSigma)
-        self.xCovarianceFund = np.zeros([len(self.xFund),len(self.xFund)])
-        self.xCovarianceFund[0,0] = self.geographyHead.fundSigma**2
-        self.xCovarianceFund[1:,1:] = np.multiply(np.transpose(np.matrix(stateFundSigma)) * np.matrix(stateFundSigma), np.matrix(rho))
+        self.xCovarianceFund = np.multiply(np.transpose(np.matrix(stateFundSigma)) * np.matrix(stateFundSigma), np.matrix(rho)) + self.geographyHead.fundSigma**2 * np.ones((len(self.xFund),len(self.xFund)))
 
 
-        self.zPolls = np.zeros([len(self.time),len(self.allGeographies)])
-        self.rPolls = np.ones([len(self.time),len(self.allGeographies)])*1000000
-        self.availFlags = np.zeros([len(self.time),len(self.allGeographies)],dtype=bool)
+        self.zPolls = np.zeros([len(self.time),len(self.stateGeographies)])
+        self.rPolls = np.ones([len(self.time),len(self.stateGeographies)])*1000000
+        self.availFlags = np.zeros([len(self.time),len(self.stateGeographies)],dtype=bool)
 
         self.xPolling = np.zeros([len(self.time),len(self.xFund)])
         self.xCovariancePolling = np.zeros([len(self.time),len(self.xFund),len(self.xFund)])
@@ -103,17 +102,17 @@ class Model:
         self.geographyHead.addPolls(polls)
 
         ### Initialize Polling measurements:
-        for i in range(len(self.allGeographies)):
+        for i in range(len(self.stateGeographies)):
             for j in range(len(self.time)):
-                for k in range(len(self.allGeographies[i].polls)):
-                    if self.time[j] == (C.electionDate - self.allGeographies[i].polls[k].date).days:
+                for k in range(len(self.stateGeographies[i].polls)):
+                    if self.time[j] == (C.electionDate - self.stateGeographies[i].polls[k].date).days:
                         if self.availFlags[j, i] == 0:
                             self.availFlags[j, i] = 1
-                            self.zPolls[j, i] = self.allGeographies[i].polls[k].result
-                            self.rPolls[j, i] = self.allGeographies[i].polls[k].sigma**2
+                            self.zPolls[j, i] = self.stateGeographies[i].polls[k].result
+                            self.rPolls[j, i] = self.stateGeographies[i].polls[k].sigma**2
                         else:
-                            self.zPolls[j, i] = (self.zPolls[j, i] * self.allGeographies[i].polls[k].sigma**2 + self.allGeographies[i].polls[k].result * self.rPolls[j, i]) / (self.rPolls[j, i] + self.allGeographies[i].polls[k].sigma**2)
-                            self.rPolls[j, i] = (1 - self.rPolls[j, i] / (self.rPolls[j, i] + self.allGeographies[i].polls[k].sigma**2)) * self.rPolls[j, i]
+                            self.zPolls[j, i] = (self.zPolls[j, i] * self.stateGeographies[i].polls[k].sigma**2 + self.stateGeographies[i].polls[k].result * self.rPolls[j, i]) / (self.rPolls[j, i] + self.stateGeographies[i].polls[k].sigma**2)
+                            self.rPolls[j, i] = (1 - self.rPolls[j, i] / (self.rPolls[j, i] + self.stateGeographies[i].polls[k].sigma**2)) * self.rPolls[j, i]
 
 
     # Run the polling average for all geography areas concurently with covariance
@@ -121,35 +120,28 @@ class Model:
 
 
         N = len(self.xFund)
-        m = len(self.allGeographies)
 
         # Set up process noise and bias
         rho = self.correlation
         p0 = 100000 * self.xCovarianceFund
         x0 = np.zeros(len(self.xFund))
-        qVec = np.zeros(N-1)
-        biasVec = np.zeros(N-1)
-        for i in range(N-1):
+        qVec = np.zeros(N)
+        biasVec = np.zeros(N)
+        for i in range(N):
             qVec[i] = np.sqrt(self.stateGeographies[i].pollingProcessNoise)
             biasVec[i] = self.stateGeographies[i].pollingBiasSigma
         qVec = np.matrix(qVec)
         biasVec = np.matrix(biasVec)
-        Q = np.zeros([N, N])
-        Q[1:,1:] = np.multiply(np.transpose(qVec)*qVec, rho)
-        Q[0,0] = self.geographyHead.pollingProcessNoise
-        bias = np.zeros([N,N])
-        bias[1:,1:] = np.multiply(np.transpose(biasVec)*biasVec, rho)
-        bias[0,0] = self.geographyHead.pollingBiasSigma**2
+        Q = np.multiply(np.transpose(qVec)*qVec, rho) + np.ones((N,N)) * self.geographyHead.pollingProcessNoise
+        bias = np.multiply(np.transpose(biasVec)*biasVec, rho) + np.ones((N,N)) * self.geographyHead.pollingBiasSigma**2
         # Set up measurement noise
-        R = np.zeros([len(self.time), m, m])
+        R = np.zeros([len(self.time), N, N])
         for i in range(len(self.time)):
-            for j in range(m):
+            for j in range(N):
                 R[i,j,j] = self.rPolls[i,j]
 
         # Set up sensitivity matrix
-        H = np.zeros([m,N])
-        H[1:,1:] = np.identity(N-1)
-        H[:,0] = 1
+        H = np.identity(N)
 
         # Run Kalman Filter
         xK = np.transpose(np.matrix(x0))
@@ -168,7 +160,6 @@ class Model:
                 rK = np.matrix(rK)
 
                 fundEst = np.transpose(np.matrix(self.xFund))
-                fundEst[1:] = fundEst[1:] - fundEst[0]
                 y = zK - hK * (xK + fundEst)
                 S = hK * pK * np.transpose(hK) + rK
                 K = pK * np.transpose(hK) * np.linalg.inv(S)
@@ -201,12 +192,9 @@ class Model:
         rState = np.matrix(self.xCovariancePolling[-1,:,:])
 
         # Set up sensitivity matrix
-        H = np.zeros([m,N])
-        H[1:,1:] = np.identity(N-1)
-        H[:,0] = 1
+        H = np.identity(N)
 
         fundEst = np.transpose(np.matrix(self.xFund))
-        fundEst[1:] = fundEst[1:] - fundEst[0]
 
         yState = zState
         S = pState + rState
@@ -222,15 +210,15 @@ class Model:
         xEst = H * (self.stateEst + fundEst)
         pEst = H * pEst * np.transpose(H)
 
-        self.finalEst = xEst[1:]
-        self.finalCov = pEst[1:,1:]
+        self.finalEst = xEst
+        self.finalCov = pEst
 
         # Assign estimates
-        for i in range(len(self.allGeographies)):
-            self.allGeographies[i].est = xEst[i, 0]
-            self.allGeographies[i].sigma = np.sqrt(pEst[i,i])
-            winRate = norm.cdf((self.allGeographies[i].est - 0.5) / self.allGeographies[i].sigma)
-            self.allGeographies[i].probWin = winRate
+        for i in range(len(self.stateGeographies)):
+            self.stateGeographies[i].est = xEst[i, 0]
+            self.stateGeographies[i].sigma = np.sqrt(pEst[i,i])
+            winRate = norm.cdf((self.stateGeographies[i].est - 0.5) / self.stateGeographies[i].sigma)
+            self.stateGeographies[i].probWin = winRate
 
 
     # Please implement this method to simulate the election nRuns times.
