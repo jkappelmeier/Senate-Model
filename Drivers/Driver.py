@@ -42,3 +42,8 @@ for i in range(len(sen.stateGeographies)):
         print('    ' + str(sen.stateGeographies[i].gopName) + ' - Estimate: ' + str(round((1 - sen.allGeographies[i+1].est) * 100, 2)) + '% | Chance of winning: ' + str(round((1 - sen.allGeographies[i+1].probWin) * 100, 2)) + '%')
         print('    ' + str(sen.stateGeographies[i].demName) + ' - Estimate: ' + str(round(sen.allGeographies[i+1].est * 100, 2)) + '% | Chance of winning: ' + str(round(sen.allGeographies[i+1].probWin * 100, 2)) + '%')
     print('')
+
+with open('simulations.csv', 'w', newline = '') as csvfile:
+    spamwriter = csv.writer(csvfile, delimiter=',')
+    for row in simStateVote:
+        spamwriter.writerow(row)
