@@ -74,7 +74,6 @@ class Model:
 
         # Adjust to estimate of national vote
         stateFundEst = np.array(stateFundEst)
-        stateFundEst = stateFundEst + self.geographyHead.fundEst - 0.5
 
         self.xFund = np.array(stateFundEst)
         rho = self.correlation

@@ -15,8 +15,7 @@ startDate =  datetime.date(2024,1,1) # Campaign Start Date
 
 ### National-Level Fundamental Consants
 
-incAvg = 0.4876 # Average incumbent 2-party vote share
-incSigma = 0.0271 # Standard deviation in incumbent 2-party vote share
+incSigma = 0.024 # Standard deviation in incumbent 2-party vote share
 
 
 ### National-Level Polling Constants

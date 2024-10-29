@@ -10,7 +10,7 @@ import csv
 
 
 # Create National object
-nat = National.National('National', C.incAvg, C.incSigma)
+nat = National.National('National', 0, C.incSigma)
 
 # Add State objects
 nat.addChildren(LoadData.states)
