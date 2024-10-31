@@ -1,140 +1,140 @@
 Senate Seats:
-    Democrats - Average: 46.79 Senate Seats | Chance of winning: 5.2%
-    Republicans - Average: 53.21 Senate Seats | Chance of winning: 86.38%
-    Chance of Senate Tie: 8.42%
+    Democrats - Average: 47.27 Senate Seats | Chance of winning: 8.44%
+    Republicans - Average: 52.73 Senate Seats | Chance of winning: 81.0%
+    Chance of Senate Tie: 10.56%
 
-Arizona (5.1% Tipping Point Chance):
-    Ruben Gallego (D) - Estimate: 51.86% | Chance of winning: 70.72%
-    Kari Lake (R) - Estimate: 48.14% | Chance of winning: 29.28%
+Arizona (5.98% Tipping Point Chance):
+    Ruben Gallego (D) - Estimate: 52.0% | Chance of winning: 70.67%
+    Kari Lake (R) - Estimate: 48.0% | Chance of winning: 29.33%
 
-California (0.0% Tipping Point Chance):
-    Adam Schiff (D) - Estimate: 60.44% | Chance of winning: 99.85%
-    Steve Garvey (R) - Estimate: 39.56% | Chance of winning: 0.15%
+California (0.03% Tipping Point Chance):
+    Adam Schiff (D) - Estimate: 60.78% | Chance of winning: 99.73%
+    Steve Garvey (R) - Estimate: 39.22% | Chance of winning: 0.27%
 
-Connecticut (0.05% Tipping Point Chance):
-    Chris Murphey* (D) - Estimate: 59.41% | Chance of winning: 98.86%
-    Matthew Corey (R) - Estimate: 40.59% | Chance of winning: 1.14%
+Connecticut (0.53% Tipping Point Chance):
+    Chris Murphey* (D) - Estimate: 58.95% | Chance of winning: 95.95%
+    Matthew Corey (R) - Estimate: 41.05% | Chance of winning: 4.05%
 
-Delaware (0.87% Tipping Point Chance):
-    Lisa Blunt Rochester (D) - Estimate: 56.83% | Chance of winning: 94.06%
-    Eric Hansen (R) - Estimate: 43.17% | Chance of winning: 5.94%
+Delaware (0.93% Tipping Point Chance):
+    Lisa Blunt Rochester (D) - Estimate: 58.52% | Chance of winning: 93.41%
+    Eric Hansen (R) - Estimate: 41.48% | Chance of winning: 6.59%
 
-Florida (13.11% Tipping Point Chance):
-    Rick Scott* (R) - Estimate: 53.78% | Chance of winning: 86.53%
-    Debbie Mucarsel-Powell (D) - Estimate: 46.22% | Chance of winning: 13.47%
+Florida (11.48% Tipping Point Chance):
+    Rick Scott* (R) - Estimate: 53.99% | Chance of winning: 86.01%
+    Debbie Mucarsel-Powell (D) - Estimate: 46.01% | Chance of winning: 13.99%
 
-Hawaii (0.02% Tipping Point Chance):
-    Mazie Hirono* (D) - Estimate: 64.8% | Chance of winning: 99.88%
-    Bob McDermott (R) - Estimate: 35.2% | Chance of winning: 0.12%
+Hawaii (0.22% Tipping Point Chance):
+    Mazie Hirono* (D) - Estimate: 65.28% | Chance of winning: 98.8%
+    Bob McDermott (R) - Estimate: 34.72% | Chance of winning: 1.2%
 
-Indiana (0.28% Tipping Point Chance):
-    Jim Banks (R) - Estimate: 61.64% | Chance of winning: 99.86%
-    Valerie McCray (D) - Estimate: 38.36% | Chance of winning: 0.14%
+Indiana (3.17% Tipping Point Chance):
+    Jim Banks (R) - Estimate: 58.21% | Chance of winning: 96.62%
+    Valerie McCray (D) - Estimate: 41.79% | Chance of winning: 3.38%
 
-Maine (0.03% Tipping Point Chance):
-    Angus King* (I) - Estimate: 59.6% | Chance of winning: 99.26%
-    Demitroula Kouzounas (R) - Estimate: 40.4% | Chance of winning: 0.74%
+Maine (0.04% Tipping Point Chance):
+    Angus King* (I) - Estimate: 61.36% | Chance of winning: 99.32%
+    Demitroula Kouzounas (R) - Estimate: 38.64% | Chance of winning: 0.68%
 
-Maryland (0.21% Tipping Point Chance):
-    Angela Alsobrooks (D) - Estimate: 56.81% | Chance of winning: 97.13%
-    Larry Hogan (R) - Estimate: 43.19% | Chance of winning: 2.87%
+Maryland (0.9% Tipping Point Chance):
+    Angela Alsobrooks (D) - Estimate: 56.03% | Chance of winning: 93.51%
+    Larry Hogan (R) - Estimate: 43.97% | Chance of winning: 6.49%
 
 Massachusetts (0.0% Tipping Point Chance):
-    Elizabeth Warren* (D) - Estimate: 61.85% | Chance of winning: 99.92%
-    John Deaton (R) - Estimate: 38.15% | Chance of winning: 0.08%
+    Elizabeth Warren* (D) - Estimate: 62.16% | Chance of winning: 99.86%
+    John Deaton (R) - Estimate: 37.84% | Chance of winning: 0.14%
 
-Michigan (5.61% Tipping Point Chance):
-    Elissa Slotkin (D) - Estimate: 51.23% | Chance of winning: 64.2%
-    Mike Rogers (R) - Estimate: 48.77% | Chance of winning: 35.8%
+Michigan (6.29% Tipping Point Chance):
+    Elissa Slotkin (D) - Estimate: 51.56% | Chance of winning: 66.71%
+    Mike Rogers (R) - Estimate: 48.44% | Chance of winning: 33.29%
 
-Minnesota (0.13% Tipping Point Chance):
-    Amy Klobuchar* (D) - Estimate: 56.59% | Chance of winning: 96.53%
-    Royce White (R) - Estimate: 43.41% | Chance of winning: 3.47%
+Minnesota (0.59% Tipping Point Chance):
+    Amy Klobuchar* (D) - Estimate: 56.23% | Chance of winning: 94.34%
+    Royce White (R) - Estimate: 43.77% | Chance of winning: 5.66%
 
-Mississippi (0.1% Tipping Point Chance):
-    Roger Wicker* (R) - Estimate: 64.58% | Chance of winning: 99.96%
-    Ty Pinkins (D) - Estimate: 35.42% | Chance of winning: 0.04%
+Mississippi (0.94% Tipping Point Chance):
+    Roger Wicker* (R) - Estimate: 62.55% | Chance of winning: 98.95%
+    Ty Pinkins (D) - Estimate: 37.45% | Chance of winning: 1.05%
 
-Missouri (2.47% Tipping Point Chance):
-    Johs Hawley* (R) - Estimate: 57.54% | Chance of winning: 98.11%
-    Lucas Kunce (D) - Estimate: 42.46% | Chance of winning: 1.89%
+Missouri (3.17% Tipping Point Chance):
+    Johs Hawley* (R) - Estimate: 57.73% | Chance of winning: 97.39%
+    Lucas Kunce (D) - Estimate: 42.27% | Chance of winning: 2.61%
 
-Montana (15.47% Tipping Point Chance):
-    Tim Sheehy (R) - Estimate: 52.49% | Chance of winning: 75.37%
-    Jon Tester* (D) - Estimate: 47.51% | Chance of winning: 24.63%
+Montana (13.87% Tipping Point Chance):
+    Tim Sheehy (R) - Estimate: 52.01% | Chance of winning: 69.32%
+    Jon Tester* (D) - Estimate: 47.99% | Chance of winning: 30.68%
 
-Nebraska (6.67% Tipping Point Chance):
-    Deb Fischer* (R) - Estimate: 55.89% | Chance of winning: 95.3%
-    Dan Osborn (I) - Estimate: 44.11% | Chance of winning: 4.7%
+Nebraska (6.39% Tipping Point Chance):
+    Deb Fischer* (R) - Estimate: 55.79% | Chance of winning: 93.55%
+    Dan Osborn (I) - Estimate: 44.21% | Chance of winning: 6.45%
 
-Nevada (5.59% Tipping Point Chance):
-    Jacky Rosen* (D) - Estimate: 51.65% | Chance of winning: 68.32%
-    Sam Brown (R) - Estimate: 48.35% | Chance of winning: 31.68%
+Nevada (4.57% Tipping Point Chance):
+    Jacky Rosen* (D) - Estimate: 52.71% | Chance of winning: 76.81%
+    Sam Brown (R) - Estimate: 47.29% | Chance of winning: 23.19%
 
-New Jersey (1.13% Tipping Point Chance):
-    Andy Kim (D) - Estimate: 55.15% | Chance of winning: 90.83%
-    Curtis Bashaw (R) - Estimate: 44.85% | Chance of winning: 9.17%
+New Jersey (0.91% Tipping Point Chance):
+    Andy Kim (D) - Estimate: 56.6% | Chance of winning: 94.44%
+    Curtis Bashaw (R) - Estimate: 43.4% | Chance of winning: 5.56%
 
-New Mexico (0.98% Tipping Point Chance):
-    Martin Heinrich* (D) - Estimate: 55.31% | Chance of winning: 92.35%
-    Nella Domenici (R) - Estimate: 44.69% | Chance of winning: 7.65%
+New Mexico (0.86% Tipping Point Chance):
+    Martin Heinrich* (D) - Estimate: 56.74% | Chance of winning: 94.78%
+    Nella Domenici (R) - Estimate: 43.26% | Chance of winning: 5.22%
 
-New York (0.02% Tipping Point Chance):
-    Kirsten Gillibrand* (D) - Estimate: 60.66% | Chance of winning: 99.81%
-    Mike Sapraicone (R) - Estimate: 39.34% | Chance of winning: 0.19%
+New York (0.0% Tipping Point Chance):
+    Kirsten Gillibrand* (D) - Estimate: 61.49% | Chance of winning: 99.81%
+    Mike Sapraicone (R) - Estimate: 38.51% | Chance of winning: 0.19%
 
-North Dakota (0.04% Tipping Point Chance):
-    Kevin Cramer* (R) - Estimate: 64.16% | Chance of winning: 99.99%
-    Katrina Christiansen (D) - Estimate: 35.84% | Chance of winning: 0.01%
+North Dakota (0.05% Tipping Point Chance):
+    Kevin Cramer* (R) - Estimate: 65.0% | Chance of winning: 99.96%
+    Katrina Christiansen (D) - Estimate: 35.0% | Chance of winning: 0.04%
 
-Ohio (12.53% Tipping Point Chance):
-    Bernie Moreno (R) - Estimate: 50.61% | Chance of winning: 56.99%
-    Sherrod Brown* (D) - Estimate: 49.39% | Chance of winning: 43.01%
+Ohio (11.9% Tipping Point Chance):
+    Bernie Moreno (R) - Estimate: 50.09% | Chance of winning: 50.92%
+    Sherrod Brown* (D) - Estimate: 49.91% | Chance of winning: 49.08%
 
-Pennsylvania (6.94% Tipping Point Chance):
-    Bob Casey* (D) - Estimate: 50.77% | Chance of winning: 58.94%
-    David McCormick (R) - Estimate: 49.23% | Chance of winning: 41.06%
+Pennsylvania (5.62% Tipping Point Chance):
+    Bob Casey* (D) - Estimate: 51.9% | Chance of winning: 70.11%
+    David McCormick (R) - Estimate: 48.1% | Chance of winning: 29.89%
 
-Rhode Island (0.03% Tipping Point Chance):
-    Sheldon Whitehouse* (D) - Estimate: 59.03% | Chance of winning: 99.03%
-    Patricia Morgan (R) - Estimate: 40.97% | Chance of winning: 0.97%
+Rhode Island (0.19% Tipping Point Chance):
+    Sheldon Whitehouse* (D) - Estimate: 58.86% | Chance of winning: 97.73%
+    Patricia Morgan (R) - Estimate: 41.14% | Chance of winning: 2.27%
 
-Tennessee (0.14% Tipping Point Chance):
-    Marsha Blackburn* (R) - Estimate: 61.93% | Chance of winning: 99.91%
-    Gloria Johnson (D) - Estimate: 38.07% | Chance of winning: 0.09%
+Tennessee (0.24% Tipping Point Chance):
+    Marsha Blackburn* (R) - Estimate: 62.44% | Chance of winning: 99.84%
+    Gloria Johnson (D) - Estimate: 37.56% | Chance of winning: 0.16%
 
-Texas (12.14% Tipping Point Chance):
-    Ted Cruz* (R) - Estimate: 53.63% | Chance of winning: 85.46%
-    Colin Allred (D) - Estimate: 46.37% | Chance of winning: 14.54%
+Texas (10.98% Tipping Point Chance):
+    Ted Cruz* (R) - Estimate: 53.84% | Chance of winning: 84.98%
+    Colin Allred (D) - Estimate: 46.16% | Chance of winning: 15.02%
 
-Utah (0.0% Tipping Point Chance):
-    John Curtis (R) - Estimate: 65.65% | Chance of winning: 100.0%
-    Caroline Gleich (D) - Estimate: 34.35% | Chance of winning: 0.0%
+Utah (0.02% Tipping Point Chance):
+    John Curtis (R) - Estimate: 66.28% | Chance of winning: 99.99%
+    Caroline Gleich (D) - Estimate: 33.72% | Chance of winning: 0.01%
 
 Vermont (0.0% Tipping Point Chance):
-    Bernie Sanders* (I) - Estimate: 67.83% | Chance of winning: 100.0%
-    Gerlad Malloy (R) - Estimate: 32.17% | Chance of winning: 0.0%
+    Bernie Sanders* (I) - Estimate: 69.37% | Chance of winning: 99.99%
+    Gerlad Malloy (R) - Estimate: 30.63% | Chance of winning: 0.01%
 
-Virginia (1.17% Tipping Point Chance):
-    Tim Kaine* (D) - Estimate: 55.05% | Chance of winning: 91.83%
-    Hung Cao (R) - Estimate: 44.95% | Chance of winning: 8.17%
+Virginia (0.7% Tipping Point Chance):
+    Tim Kaine* (D) - Estimate: 56.68% | Chance of winning: 95.35%
+    Hung Cao (R) - Estimate: 43.32% | Chance of winning: 4.65%
 
-Washington (0.01% Tipping Point Chance):
-    Maria Cantwell* (D) - Estimate: 59.02% | Chance of winning: 99.12%
-    Raul Garcia (R) - Estimate: 40.98% | Chance of winning: 0.88%
+Washington (0.13% Tipping Point Chance):
+    Maria Cantwell* (D) - Estimate: 59.31% | Chance of winning: 98.39%
+    Raul Garcia (R) - Estimate: 40.69% | Chance of winning: 1.61%
 
-West Virginia (0.01% Tipping Point Chance):
-    Jim Justice (R) - Estimate: 67.98% | Chance of winning: 100.0%
-    Glenn Elliott (D) - Estimate: 32.02% | Chance of winning: 0.0%
+West Virginia (0.07% Tipping Point Chance):
+    Jim Justice (R) - Estimate: 67.16% | Chance of winning: 99.94%
+    Glenn Elliott (D) - Estimate: 32.84% | Chance of winning: 0.06%
 
-Wisconsin (9.12% Tipping Point Chance):
-    Tammy Baldwin* (D) - Estimate: 50.19% | Chance of winning: 52.21%
-    Eric Hovde (R) - Estimate: 49.81% | Chance of winning: 47.79%
+Wisconsin (8.21% Tipping Point Chance):
+    Tammy Baldwin* (D) - Estimate: 51.07% | Chance of winning: 61.55%
+    Eric Hovde (R) - Estimate: 48.93% | Chance of winning: 38.45%
 
-Wyoming (0.0% Tipping Point Chance):
-    John Barrasso* (R) - Estimate: 72.76% | Chance of winning: 100.0%
-    Scott Morrow (D) - Estimate: 27.24% | Chance of winning: 0.0%
+Wyoming (0.02% Tipping Point Chance):
+    John Barrasso* (R) - Estimate: 72.37% | Chance of winning: 99.98%
+    Scott Morrow (D) - Estimate: 27.63% | Chance of winning: 0.02%
 
-Nebraska Special (0.03% Tipping Point Chance):
-    Pete Ricketts* (R) - Estimate: 62.77% | Chance of winning: 99.97%
-    Preston Love Jr. (D) - Estimate: 37.23% | Chance of winning: 0.03%
+Nebraska Special (1.0% Tipping Point Chance):
+    Pete Ricketts* (R) - Estimate: 60.0% | Chance of winning: 99.08%
+    Preston Love Jr. (D) - Estimate: 40.0% | Chance of winning: 0.92%
