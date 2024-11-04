@@ -15,7 +15,7 @@ startDate =  datetime.date(2024,1,1) # Campaign Start Date
 
 ### National-Level Fundamental Consants
 
-incSigma = 0.024 # Standard deviation in incumbent 2-party vote share
+incSigma = 0.0277 # Standard deviation in incumbent 2-party vote share
 
 
 ### National-Level Polling Constants
@@ -27,5 +27,5 @@ pollingBiasSigmaNat = 0.02314 # National Polling Bias Noise
 
 ### State-Level Polling Constants
 
-pollingProcessNoiseState = 1.17e-5
-pollingBiasSigmaState = 0.03054
+pollingProcessNoiseState = 2.20E-05
+pollingBiasSigmaState = 0.0418
